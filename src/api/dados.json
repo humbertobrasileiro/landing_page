@@ -1,0 +1,523 @@
+[{
+  "_id": "60d25e28a1094e548006bd14",
+  "published_at": "2021-06-22T22:22:38.148Z",
+  "sections": [
+      {
+          "__component": "section.section-two-columns",
+          "_id": "60d264b55a6ae45b88b479a5",
+          "title": "January brings us Firefox 85",
+          "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+          "metadata": {
+              "background": true,
+              "_id": "60d264b65a6ae45b88b479a6",
+              "name": "Home",
+              "section_id": "home",
+              "__v": 0,
+              "id": "60d264b65a6ae45b88b479a6"
+          },
+          "__v": 1,
+          "image": {
+              "_id": "60d21d10957a2b3e0459779f",
+              "name": "javascript.svg",
+              "alternativeText": "Desenho de pessoas segurando a logo do CSS, JS e HTML",
+              "caption": "Desenho de pessoas segurando a logo do CSS, JS e HTML",
+              "hash": "javascript_b1292f7089",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 30.31,
+              "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624382733/javascript_b1292f7089.svg",
+              "provider_metadata": {
+                  "public_id": "javascript_b1292f7089",
+                  "resource_type": "image"
+              },
+              "provider": "cloudinary",
+              "width": 1030,
+              "height": 730,
+              "related": [ ],
+              "createdAt": "2021-06-22T17:25:36.662Z",
+              "updatedAt": "2021-06-22T23:50:53.016Z",
+              "__v": 0,
+              "id": "60d21d10957a2b3e0459779f"
+          },
+          "id": "60d264b55a6ae45b88b479a5"
+      },
+      {
+          "__component": "section.section-content",
+          "_id": "60d265f35a6ae45b88b479b1",
+          "title": "news coverage and some surprises",
+          "content": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>",
+          "metadata": {
+              "background": false,
+              "_id": "60d265f35a6ae45b88b479b2",
+              "name": "intro",
+              "section_id": "intro",
+              "__v": 0,
+              "id": "60d265f35a6ae45b88b479b2"
+          },
+          "__v": 1,
+          "id": "60d265f35a6ae45b88b479b1"
+      },
+      {
+          "__component": "section.section-grid",
+          "_id": "60d266f05a6ae45b88b479be",
+          "title": "My Grid",
+          "description": "Uma breve descrição.",
+          "text_grid": [
+              {
+                  "_id": "60d266f05a6ae45b88b479bf",
+                  "title": "Teste 1",
+                  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+                  "__v": 0,
+                  "id": "60d266f05a6ae45b88b479bf"
+              },
+              {
+                  "_id": "60d266f05a6ae45b88b479c0",
+                  "title": "Teste 2",
+                  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+                  "__v": 0,
+                  "id": "60d266f05a6ae45b88b479c0"
+              },
+              {
+                  "_id": "60d266f05a6ae45b88b479c1",
+                  "title": "Teste 3",
+                  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+                  "__v": 0,
+                  "id": "60d266f05a6ae45b88b479c1"
+              }
+          ],
+          "image_grid": [ ],
+          "metadata": {
+              "background": true,
+              "_id": "60d266f05a6ae45b88b479c5",
+              "name": "grid-one",
+              "section_id": "grid-one",
+              "__v": 0,
+              "id": "60d266f05a6ae45b88b479c5"
+          },
+          "__v": 2,
+          "id": "60d266f05a6ae45b88b479be"
+      },
+      {
+          "__component": "section.section-grid",
+          "_id": "60d26c105a6ae45b88b479d9",
+          "title": "Gallery",
+          "description": "Uma breve descrição.",
+          "text_grid": [ ],
+          "image_grid": [
+              {
+                  "_id": "60d26c105a6ae45b88b479da",
+                  "__v": 0,
+                  "image": {
+                      "_id": "60d268885a6ae45b88b479d3",
+                      "name": "https://res.cloudinary.com/projeto-5/image/upload/v1620933205/360x360_55eabcd872.jpg",
+                      "alternativeText": "Carro esportivo branco",
+                      "caption": "Carro esportivo branco",
+                      "hash": "360x360_55eabcd872_3f26aa223b",
+                      "ext": ".jpg",
+                      "mime": "image/jpeg",
+                      "size": 14.95,
+                      "width": 360,
+                      "height": 360,
+                      "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624402054/360x360_55eabcd872_3f26aa223b.jpg",
+                      "provider_metadata": {
+                          "public_id": "360x360_55eabcd872_3f26aa223b",
+                          "resource_type": "image"
+                      },
+                      "formats": {
+                          "thumbnail": {
+                              "name": "thumbnail_https://res.cloudinary.com/projeto-5/image/upload/v1620933205/360x360_55eabcd872.jpg",
+                              "hash": "thumbnail_360x360_55eabcd872_3f26aa223b",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "width": 156,
+                              "height": 156,
+                              "size": 4.65,
+                              "path": null,
+                              "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624402055/thumbnail_360x360_55eabcd872_3f26aa223b.jpg",
+                              "provider_metadata": {
+                                  "public_id": "thumbnail_360x360_55eabcd872_3f26aa223b",
+                                  "resource_type": "image"
+                              }
+                          }
+                      },
+                      "provider": "cloudinary",
+                      "related": [ ],
+                      "createdAt": "2021-06-22T22:47:36.473Z",
+                      "updatedAt": "2021-06-22T23:50:53.016Z",
+                      "__v": 0,
+                      "id": "60d268885a6ae45b88b479d3"
+                  },
+                  "id": "60d26c105a6ae45b88b479da"
+              },
+              {
+                  "_id": "60d26c105a6ae45b88b479db",
+                  "__v": 0,
+                  "image": {
+                      "_id": "60d268e85a6ae45b88b479d4",
+                      "name": "https://res.cloudinary.com/projeto-5/image/upload/v1620933204/thumbnail_360x360_37e2730d50.jpg",
+                      "alternativeText": "Homem tirando fotografias",
+                      "caption": "Homem tirando fotografias",
+                      "hash": "thumbnail_360x360_37e2730d50_b70a85181d",
+                      "ext": ".jpg",
+                      "mime": "image/jpeg",
+                      "size": 4.66,
+                      "width": 156,
+                      "height": 156,
+                      "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624402151/thumbnail_360x360_37e2730d50_b70a85181d.jpg",
+                      "provider_metadata": {
+                          "public_id": "thumbnail_360x360_37e2730d50_b70a85181d",
+                          "resource_type": "image"
+                      },
+                      "provider": "cloudinary",
+                      "related": [ ],
+                      "createdAt": "2021-06-22T22:49:12.612Z",
+                      "updatedAt": "2021-06-22T23:50:53.016Z",
+                      "__v": 0,
+                      "id": "60d268e85a6ae45b88b479d4"
+                  },
+                  "id": "60d26c105a6ae45b88b479db"
+              },
+              {
+                  "_id": "60d26c105a6ae45b88b479dc",
+                  "__v": 0,
+                  "image": {
+                      "_id": "60d2696c5a6ae45b88b479d5",
+                      "name": "https://res.cloudinary.com/projeto-5/image/upload/v1620933203/360x360_62aed3a0a2.jpg",
+                      "alternativeText": "Homem de barro",
+                      "caption": "Homem de barro",
+                      "hash": "360x360_62aed3a0a2_bf0396afa8",
+                      "ext": ".jpg",
+                      "mime": "image/jpeg",
+                      "size": 34.52,
+                      "width": 360,
+                      "height": 360,
+                      "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624402283/360x360_62aed3a0a2_bf0396afa8.jpg",
+                      "provider_metadata": {
+                          "public_id": "360x360_62aed3a0a2_bf0396afa8",
+                          "resource_type": "image"
+                      },
+                      "formats": {
+                          "thumbnail": {
+                              "name": "thumbnail_https://res.cloudinary.com/projeto-5/image/upload/v1620933203/360x360_62aed3a0a2.jpg",
+                              "hash": "thumbnail_360x360_62aed3a0a2_bf0396afa8",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "width": 156,
+                              "height": 156,
+                              "size": 7.86,
+                              "path": null,
+                              "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624402284/thumbnail_360x360_62aed3a0a2_bf0396afa8.jpg",
+                              "provider_metadata": {
+                                  "public_id": "thumbnail_360x360_62aed3a0a2_bf0396afa8",
+                                  "resource_type": "image"
+                              }
+                          }
+                      },
+                      "provider": "cloudinary",
+                      "related": [ ],
+                      "createdAt": "2021-06-22T22:51:24.965Z",
+                      "updatedAt": "2021-06-22T23:50:53.016Z",
+                      "__v": 0,
+                      "id": "60d2696c5a6ae45b88b479d5"
+                  },
+                  "id": "60d26c105a6ae45b88b479dc"
+              },
+              {
+                  "_id": "60d26c105a6ae45b88b479dd",
+                  "__v": 0,
+                  "image": {
+                      "_id": "60d269e35a6ae45b88b479d6",
+                      "name": "https://res.cloudinary.com/projeto-5/image/upload/v1620933204/thumbnail_360x360_ceac97e102.jpg",
+                      "alternativeText": "Festa folclórica",
+                      "caption": "Festa folclórica",
+                      "hash": "thumbnail_360x360_ceac97e102_95bda3e441",
+                      "ext": ".jpg",
+                      "mime": "image/jpeg",
+                      "size": 6.87,
+                      "width": 156,
+                      "height": 156,
+                      "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624402402/thumbnail_360x360_ceac97e102_95bda3e441.jpg",
+                      "provider_metadata": {
+                          "public_id": "thumbnail_360x360_ceac97e102_95bda3e441",
+                          "resource_type": "image"
+                      },
+                      "provider": "cloudinary",
+                      "related": [ ],
+                      "createdAt": "2021-06-22T22:53:23.303Z",
+                      "updatedAt": "2021-06-22T23:50:53.016Z",
+                      "__v": 0,
+                      "id": "60d269e35a6ae45b88b479d6"
+                  },
+                  "id": "60d26c105a6ae45b88b479dd"
+              },
+              {
+                  "_id": "60d26c105a6ae45b88b479de",
+                  "__v": 0,
+                  "image": {
+                      "_id": "60d26a2e5a6ae45b88b479d7",
+                      "name": "https://res.cloudinary.com/projeto-5/image/upload/v1620933205/360x360_521ce6ca70.jpg",
+                      "alternativeText": "Seu tempo importa",
+                      "caption": "Seu tempo importa",
+                      "hash": "360x360_521ce6ca70_879fa1cc03",
+                      "ext": ".jpg",
+                      "mime": "image/jpeg",
+                      "size": 34.94,
+                      "width": 360,
+                      "height": 360,
+                      "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624402477/360x360_521ce6ca70_879fa1cc03.jpg",
+                      "provider_metadata": {
+                          "public_id": "360x360_521ce6ca70_879fa1cc03",
+                          "resource_type": "image"
+                      },
+                      "formats": {
+                          "thumbnail": {
+                              "name": "thumbnail_https://res.cloudinary.com/projeto-5/image/upload/v1620933205/360x360_521ce6ca70.jpg",
+                              "hash": "thumbnail_360x360_521ce6ca70_879fa1cc03",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "width": 156,
+                              "height": 156,
+                              "size": 7.6,
+                              "path": null,
+                              "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624402477/thumbnail_360x360_521ce6ca70_879fa1cc03.jpg",
+                              "provider_metadata": {
+                                  "public_id": "thumbnail_360x360_521ce6ca70_879fa1cc03",
+                                  "resource_type": "image"
+                              }
+                          }
+                      },
+                      "provider": "cloudinary",
+                      "related": [ ],
+                      "createdAt": "2021-06-22T22:54:38.731Z",
+                      "updatedAt": "2021-06-22T23:50:53.016Z",
+                      "__v": 0,
+                      "id": "60d26a2e5a6ae45b88b479d7"
+                  },
+                  "id": "60d26c105a6ae45b88b479de"
+              },
+              {
+                  "_id": "60d26c105a6ae45b88b479df",
+                  "__v": 0,
+                  "image": {
+                      "_id": "60d26a815a6ae45b88b479d8",
+                      "name": "https://res.cloudinary.com/projeto-5/image/upload/v1620933203/thumbnail_360x360_9b05544387.jpg",
+                      "alternativeText": "Imagem abstrata",
+                      "caption": "Imagem abstrata",
+                      "hash": "thumbnail_360x360_9b05544387_304652c886",
+                      "ext": ".jpg",
+                      "mime": "image/jpeg",
+                      "size": 3.58,
+                      "width": 156,
+                      "height": 156,
+                      "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624402560/thumbnail_360x360_9b05544387_304652c886.jpg",
+                      "provider_metadata": {
+                          "public_id": "thumbnail_360x360_9b05544387_304652c886",
+                          "resource_type": "image"
+                      },
+                      "provider": "cloudinary",
+                      "related": [ ],
+                      "createdAt": "2021-06-22T22:56:01.930Z",
+                      "updatedAt": "2021-06-22T23:50:53.016Z",
+                      "__v": 0,
+                      "id": "60d26a815a6ae45b88b479d8"
+                  },
+                  "id": "60d26c105a6ae45b88b479df"
+              }
+          ],
+          "metadata": {
+              "background": false,
+              "_id": "60d26c105a6ae45b88b479f1",
+              "name": "gallery",
+              "section_id": "gallery",
+              "__v": 0,
+              "id": "60d26c105a6ae45b88b479f1"
+          },
+          "__v": 2,
+          "id": "60d26c105a6ae45b88b479d9"
+      },
+      {
+          "__component": "section.section-grid",
+          "_id": "60d26d5b5a6ae45b88b479ff",
+          "title": "Grid two",
+          "description": "Uma breve descrição",
+          "text_grid": [
+              {
+                  "_id": "60d26d5b5a6ae45b88b47a00",
+                  "title": "Teste 1",
+                  "description": "Teste 1\nLorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+                  "__v": 0,
+                  "id": "60d26d5b5a6ae45b88b47a00"
+              },
+              {
+                  "_id": "60d26d5b5a6ae45b88b47a01",
+                  "title": "Teste 2",
+                  "description": "Teste 1\nLorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+                  "__v": 0,
+                  "id": "60d26d5b5a6ae45b88b47a01"
+              },
+              {
+                  "_id": "60d26d5b5a6ae45b88b47a02",
+                  "title": "Teste 3",
+                  "description": "Teste 1\nLorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+                  "__v": 0,
+                  "id": "60d26d5b5a6ae45b88b47a02"
+              }
+          ],
+          "image_grid": [ ],
+          "metadata": {
+              "background": true,
+              "_id": "60d26d5c5a6ae45b88b47a06",
+              "name": "grid-two",
+              "section_id": "grid-two",
+              "__v": 0,
+              "id": "60d26d5c5a6ae45b88b47a06"
+          },
+          "__v": 2,
+          "id": "60d26d5b5a6ae45b88b479ff"
+      },
+      {
+          "__component": "section.section-content",
+          "_id": "60d26e865a6ae45b88b47a21",
+          "title": "Pricing",
+          "content": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><figure class=\"table\"><table><thead><tr><th>Title 1</th><th>Title 2</th><th>Title 3</th><th>Title 4</th><th>Title 5</th></tr></thead><tbody><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Testando</td></tr></tbody></table></figure>",
+          "metadata": {
+              "background": false,
+              "_id": "60d26e865a6ae45b88b47a22",
+              "name": "pricing",
+              "section_id": "pricing",
+              "__v": 0,
+              "id": "60d26e865a6ae45b88b47a22"
+          },
+          "__v": 1,
+          "id": "60d26e865a6ae45b88b47a21"
+      },
+      {
+          "__component": "section.section-two-columns",
+          "_id": "60d26f1a5a6ae45b88b47a42",
+          "title": "January brings us Firefox 85",
+          "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+          "metadata": {
+              "background": true,
+              "_id": "60d26f1a5a6ae45b88b47a43",
+              "name": "contact",
+              "section_id": "contact",
+              "__v": 0,
+              "id": "60d26f1a5a6ae45b88b47a43"
+          },
+          "__v": 1,
+          "image": {
+              "_id": "60d21d10957a2b3e0459779f",
+              "name": "javascript.svg",
+              "alternativeText": "Desenho de pessoas segurando a logo do CSS, JS e HTML",
+              "caption": "Desenho de pessoas segurando a logo do CSS, JS e HTML",
+              "hash": "javascript_b1292f7089",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 30.31,
+              "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624382733/javascript_b1292f7089.svg",
+              "provider_metadata": {
+                  "public_id": "javascript_b1292f7089",
+                  "resource_type": "image"
+              },
+              "provider": "cloudinary",
+              "width": 1030,
+              "height": 730,
+              "related": [ ],
+              "createdAt": "2021-06-22T17:25:36.662Z",
+              "updatedAt": "2021-06-22T23:50:53.016Z",
+              "__v": 0,
+              "id": "60d21d10957a2b3e0459779f"
+          },
+          "id": "60d26f1a5a6ae45b88b47a42"
+      }
+  ],
+  "menu": {
+      "open_in_new_tab": false,
+      "_id": "60d25e28a1094e548006bd15",
+      "logo_text": "Landing Page",
+      "menu_link": [ ],
+      "__v": 0,
+      "logo": {
+          "_id": "60d21c7e957a2b3e0459779e",
+          "name": "landing-page-2.svg",
+          "alternativeText": "Landing Page Logo",
+          "caption": "Landing Page Logo",
+          "hash": "landing_page_2_d927c1d95d",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 2.51,
+          "url": "https://res.cloudinary.com/projeto-5/image/upload/v1624382588/landing_page_2_d927c1d95d.svg",
+          "provider_metadata": {
+              "public_id": "landing_page_2_d927c1d95d",
+              "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 47,
+          "height": 9,
+          "related": [ ],
+          "createdAt": "2021-06-22T17:23:10.338Z",
+          "updatedAt": "2021-06-22T22:08:34.995Z",
+          "__v": 0,
+          "id": "60d21c7e957a2b3e0459779e"
+      },
+      "menu": [
+          {
+              "open_in_new_tab": false,
+              "_id": "60d262715a6ae45b88b4798a",
+              "link_text": "intro",
+              "url": "#intro",
+              "__v": 0,
+              "id": "60d262715a6ae45b88b4798a"
+          },
+          {
+              "open_in_new_tab": false,
+              "_id": "60d262715a6ae45b88b4798b",
+              "url": "#grid-one",
+              "link_text": "grid-one",
+              "__v": 0,
+              "id": "60d262715a6ae45b88b4798b"
+          },
+          {
+              "open_in_new_tab": false,
+              "_id": "60d262715a6ae45b88b4798c",
+              "url": "#gallery",
+              "link_text": "gallery",
+              "__v": 0,
+              "id": "60d262715a6ae45b88b4798c"
+          },
+          {
+              "open_in_new_tab": false,
+              "_id": "60d262715a6ae45b88b4798d",
+              "url": "#grid-two",
+              "link_text": "grid-two",
+              "__v": 0,
+              "id": "60d262715a6ae45b88b4798d"
+          },
+          {
+              "open_in_new_tab": false,
+              "_id": "60d262715a6ae45b88b4798e",
+              "url": "#pricing",
+              "link_text": "pricing",
+              "__v": 0,
+              "id": "60d262715a6ae45b88b4798e"
+          },
+          {
+              "open_in_new_tab": false,
+              "_id": "60d262715a6ae45b88b4798f",
+              "url": "#contact",
+              "link_text": "contact",
+              "__v": 0,
+              "id": "60d262715a6ae45b88b4798f"
+          }
+      ],
+      "logo_link": "#home",
+      "id": "60d25e28a1094e548006bd15"
+  },
+  "createdAt": "2021-06-22T22:03:20.086Z",
+  "updatedAt": "2021-06-22T23:15:42.951Z",
+  "__v": 1,
+  "slug": "landing-page",
+  "title": "Landing Page",
+  "footer_text": "<p><a href=\"https://beacons.page/otaviomiranda\">Feito com ❤ por Otávio Miranda</a></p>",
+  "id": "60d25e28a1094e548006bd14"
+}]
